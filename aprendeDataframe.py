@@ -21,10 +21,10 @@ print('-------------------------------------------------------------------------
 # 2 columnas a la vez
 print(df_audi[['id','Venta por']]) # Para poder colocar varias listas se tienen que poner doble corchete
 
-#print('-------------------------------------------------------------------------------------')
+print('-------------------------------------------------------------------------------------')
 # Promedio
 # error no se puede convertir a numerico y de tal manera convertirlo a promedio
-#df_audi['Venta por'].mean()
+df_audi['Venta por'].mean()
 
 print('-------------------------------------------------------------------------------------')
 # Resumen de las estadísticas que decribe el data frame
