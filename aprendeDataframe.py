@@ -24,7 +24,7 @@ print(df_audi[['id','Venta por']]) # Para poder colocar varias listas se tienen 
 print('-------------------------------------------------------------------------------------')
 # Promedio
 # error no se puede convertir a numerico y de tal manera convertirlo a promedio
-df_audi['Venta por'].mean()
+print(df_audi['Venta por'].mean())
 
 print('-------------------------------------------------------------------------------------')
 # Resumen de las estadísticas que decribe el data frame
